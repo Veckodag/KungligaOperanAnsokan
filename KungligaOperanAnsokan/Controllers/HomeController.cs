@@ -27,11 +27,5 @@ namespace KungligaOperanAnsokan.Controllers
             return View();
         }
 
-        public ActionResult Apply()
-        {
-            ViewBag.Message = "Ansökan!";
-
-            return View();
-        }
     }
 }

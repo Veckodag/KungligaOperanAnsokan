@@ -13,5 +13,6 @@ namespace KungligaOperanAnsokan.Models
         public virtual Applicant Applicant { get; set; }
         public DateTime ApplicationDate { get; set; }
         public string Status { get; set; }
+        public bool IsChoir { get; set; }
     }
 }
