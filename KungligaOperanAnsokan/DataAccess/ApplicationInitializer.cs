@@ -9,7 +9,7 @@ using KungligaOperanAnsokan.Models;
 namespace KungligaOperanAnsokan.DataAccess
 {
     //DropCreateDatabaseAlways, DropCreateDatabaseIfModelChanges
-    public class ApplicationInitializer : DropCreateDatabaseAlways<ApplicationContext>
+    public class ApplicationInitializer : DropCreateDatabaseIfModelChanges<ApplicationContext>
     {
         protected override void Seed(ApplicationContext context)
         {
